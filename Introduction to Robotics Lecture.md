@@ -49,9 +49,6 @@ class MotoBit():
     CMD_ENABLE = 0x70       # 112
     CMD_SPEED_LEFT = 0x21   # 33
     CMD_SPEED_RIGHT = 0x20  # 32
-    DUTY_NEG_CTE = 0x7f     # 127
-    DUTY_POS_CTE = 0x80     # 128
-    DUTY_MAX = 0xff         # 255
 
     def __init__(self):
       	# cool code that you'll write
