@@ -21,9 +21,12 @@ def map(input1, input2):
         numbers (int): 2-index list of integers within [0, 255] range
     '''
     numbers = [input1, input2]
-    # ===================================================================================
-    # cool code here
-    # ===================================================================================
+    for i in range(2):
+        numbers[i] = round(numbers[i] * 1.275 + 127.5)
+        if numbers[i] < 0:
+            numbers[i] = 0
+        elif numbers[i] > 255:
+            numbers[i] = 255
     return numbers
 
 
