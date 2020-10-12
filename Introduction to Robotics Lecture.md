@@ -110,7 +110,7 @@ Motor speed is determined by a value from this range [0, 255].
 
 | Reverse 100% | Reverse 50% | 0% Speed | Forward 50%  | Forward 100% |
 | :----------: | :---------: | :------: | :----------: | :----------: |
-|      0       | round(63.5) | 127,128  | round(191.5) |     255      |
+|      0       | round(63.5) | 127,128  | round(190.5) |     255      |
 |     -100     |     -50     |    0     |      50      |     100      |
 
 ### Sensors
